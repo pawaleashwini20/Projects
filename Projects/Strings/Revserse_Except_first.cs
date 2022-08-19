@@ -6,21 +6,22 @@ namespace Projects.Strings
 {
     class Revserse_Except_first
     {
-        public void input(String str)
+        public void input(String str1)
         {
-            Console.WriteLine("String is:"+str);
+            Console.WriteLine("String is:"+str1);
+            char[] str = str1.ToCharArray();
             String rev = " ";
-            int l = str.Length;
-
-            for (int i =0; i<l; i++)
+            int j = str1.Length-2;
+            int i = 1;
+            while (i < j)
             {
-                
-                        rev = rev + str[i];
-                
-            
-                
+                char temp = str[i];
+                str[i] = str[j];
+                str[j] = temp;
+                i++;
+                j--;
             }
-            Console.WriteLine("Reverse string : "+rev);
+            Console.WriteLine("Reverse string : "+str);
         }
         static void Main(string[] args)
         {

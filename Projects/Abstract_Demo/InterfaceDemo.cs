@@ -5,11 +5,11 @@ using System.Text;
 namespace Projects.Abstract_Demo
 {
     
-       public interface Imovable//interface
+       public interface Imovable    //interface
         {
-            static int x;//static variable declaration
-           abstract void show();//abstract method
-        void foo()  //concrete method
+            static int x;   //static variable declaration
+           abstract void show();    //abstract method
+        void foo()      //concrete method
         {
             Console.WriteLine("foo method...");
         }

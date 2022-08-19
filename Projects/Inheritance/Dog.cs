@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Projects.Inheritance
 {
-    class Animals
+    class Birds
     {
         protected int legs = 4;
-        public Animals()
+        public Birds()
         {
             Console.WriteLine("Animals from Animal class...");
         }
-        public Animals(int x)
+        public Birds(int x)
         {
             Console.WriteLine("x from Animal x="+x);
         }
@@ -20,7 +20,7 @@ namespace Projects.Inheritance
             Console.WriteLine("parents foo from Animal class..");
         }
     }
-    class Dog:Animals
+    class Dog:Birds
     {
         int legs = 2;
         public Dog()

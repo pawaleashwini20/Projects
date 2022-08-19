@@ -79,6 +79,7 @@ namespace Projects.Encapsulation
             e.Dt.Dd = 2;
             e.Dt.Mm = 6;
             e.Dt.Yy = 2022;
+            Console.WriteLine(e);
             Console.WriteLine(e.Id + " " + e.Name + " " + e.Dept.Did + " " + e.Dept.Dname + " " + e.Dt.Dd + "/" + e.Dt.Mm + "/" + e.dt.Yy);
         }
     }
