@@ -3,11 +3,18 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	<StartupObject>Projects.AdO.DemoInsert1</StartupObject>
+	<StartupObject>Projects.LINQ_DEMO.Employeee</StartupObject>
 
  </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SoapCore" Version="1.1.0.30" />
+    <PackageReference Include="SoapFormatter" Version="1.1.9" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="System.Text.Json" Version="6.0.5" />
   </ItemGroup>
 </Project>
