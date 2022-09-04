@@ -47,7 +47,7 @@ namespace Projects.AdO
             con.Open();
             cmd.Parameters.AddWithValue("@id", 1);
             cmd.Parameters.AddWithValue("@name", "Ashu");
-            cmd.Parameters.AddWithValue("@marks", 99);
+            cmd.Parameters.AddWithValue("@marks", 99);  
             int c = cmd.ExecuteNonQuery();
             Console.WriteLine(c);
         }

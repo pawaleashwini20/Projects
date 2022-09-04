@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace Projects.File_Handling
+namespace Projects.File_HandLing
 {
    // Create a class Course with Id, Name & Fees properties,
    // Create a file to Write course details using BianaryWriter &
